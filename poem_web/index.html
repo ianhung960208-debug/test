@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人網頁－洪靖惟</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f3f7ff;
+      font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+      color: blue;
+    }
+    main {
+      width: min(680px, calc(100% - 40px));
+      padding: 42px 24px;
+      text-align: center;
+      background: white;
+      border: 2px solid #c9dafc;
+      border-radius: 22px;
+      box-shadow: 0 12px 30px rgba(31, 78, 150, 0.12);
+    }
+    h1 { margin: 0 0 24px; font-size: 32px; }
+    .profile { font-size: 22px; line-height: 1.9; margin: 0 0 28px; }
+    .links { display: flex; flex-direction: column; gap: 14px; align-items: center; }
+    .links a {
+      display: inline-block;
+      min-width: 190px;
+      padding: 12px 18px;
+      border: 1px solid #8bb0ff;
+      border-radius: 12px;
+      color: blue;
+      background: #eef4ff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .links a:hover { background: #dce8ff; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>個人資料</h1>
+    <p class="profile">
+      學號：41418116<br>
+      姓名：洪靖惟
+    </p>
+    <nav class="links" aria-label="詩的賞析連結">
+      <a href="poem1.html">詩的賞析1：將進酒</a>
+      <a href="poem2.html">詩的賞析2：烏衣巷</a>
+    </nav>
+  </main>
+</body>
+</html>

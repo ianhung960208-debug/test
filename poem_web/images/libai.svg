@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewBox="0 0 420 560" role="img" aria-labelledby="title desc">
+  <title id="title">李白人物畫像示意圖</title><desc id="desc">以水墨與古典卷軸色調繪製的唐代詩人意象插畫。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7efd9"/><stop offset="1" stop-color="#d8c7a5"/></linearGradient>
+    <linearGradient id="robe" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9e4d4"/><stop offset="1" stop-color="#aeb3ac"/></linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4d9b8"/><stop offset="1" stop-color="#c99b76"/></linearGradient>
+  </defs>
+  <rect width="420" height="560" fill="url(#paper)"/>
+  <path d="M22 72 Q80 42 128 66 T235 60 T394 80" fill="none" stroke="#9b8d70" stroke-width="2" opacity=".45"/>
+  <path d="M28 442 Q90 410 135 437 T250 432 T390 446" fill="none" stroke="#8e8066" stroke-width="2" opacity=".45"/>
+  <g opacity=".35" fill="none" stroke="#8e8b79" stroke-width="3"><path d="M40 145q36-31 69-5q-29-2-35 20"/><path d="M302 130q26-21 57-3q-28 0-33 20"/><path d="M48 350q30-24 52-4q-26-2-30 15"/></g>
+  <!-- shoulders and flowing scholar robe -->
+  <path d="M85 560 L106 394 Q123 347 169 329 L252 329 Q302 351 322 404 L354 560Z" fill="url(#robe)" stroke="#5d625d" stroke-width="4"/>
+  <path d="M169 330 L201 383 L233 330 L253 344 L230 425 L204 466 L177 420 L150 344Z" fill="#f8f0dc" stroke="#77796f" stroke-width="3"/>
+  <path d="M115 411 Q147 449 172 560 M303 409 Q276 463 252 560" fill="none" stroke="#85877c" stroke-width="4"/>
+  <path d="M176 425 L203 453 L226 425" fill="none" stroke="#999a8f" stroke-width="3"/>
+  <!-- neck and face -->
+  <path d="M174 280 L174 337 Q207 363 244 334 L240 275Z" fill="url(#skin)" stroke="#795c47" stroke-width="3"/>
+  <path d="M150 167 Q159 111 209 107 Q263 112 273 169 L264 245 Q249 285 211 298 Q173 288 157 247Z" fill="url(#skin)" stroke="#6a5142" stroke-width="4"/>
+  <!-- ears -->
+  <ellipse cx="151" cy="207" rx="13" ry="23" fill="#d4a580" stroke="#6a5142" stroke-width="3"/><ellipse cx="271" cy="207" rx="13" ry="23" fill="#d4a580" stroke="#6a5142" stroke-width="3"/>
+  <!-- cap -->
+  <path d="M135 166 Q134 105 174 82 L246 82 Q285 111 285 170 L260 156 L160 157Z" fill="#252a2b" stroke="#161a1b" stroke-width="4"/>
+  <path d="M173 83 Q193 53 240 75 L266 97 L158 100Z" fill="#343b3b"/>
+  <path d="M140 157 Q208 141 279 158" fill="none" stroke="#d4c6a4" stroke-width="4"/>
+  <!-- brows and eyes -->
+  <path d="M164 188 Q181 177 197 188 M224 188 Q242 177 257 187" fill="none" stroke="#46382e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M168 202 Q183 195 198 202 M224 202 Q240 195 254 202" fill="none" stroke="#2e2b27" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="184" cy="201" r="3" fill="#211d19"/><circle cx="239" cy="201" r="3" fill="#211d19"/>
+  <path d="M209 203 L201 231 L213 236" fill="none" stroke="#91684f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M193 250 Q210 258 229 249" fill="none" stroke="#7e4f42" stroke-width="3"/>
+  <!-- moustache and long beard -->
+  <path d="M205 246 Q181 231 169 246 Q183 262 204 257 Q217 269 235 256 Q252 246 262 250 Q247 229 220 245Z" fill="#383432"/>
+  <path d="M183 261 Q174 311 200 340 Q210 351 216 342 Q240 310 241 261 Q222 278 211 275 Q198 277 183 261Z" fill="#343432" stroke="#242525" stroke-width="3"/>
+  <path d="M196 280 Q199 314 207 337 M223 280 Q220 315 216 339" fill="none" stroke="#77756d" stroke-width="3" opacity=".8"/>
+  <!-- decorative ink strokes -->
+  <g fill="none" stroke="#5c665d" stroke-width="3" opacity=".7"><path d="M60 490q22-14 40-2"/><path d="M320 480q26-16 47-3"/><path d="M72 505l30-7"/></g>
+</svg>
